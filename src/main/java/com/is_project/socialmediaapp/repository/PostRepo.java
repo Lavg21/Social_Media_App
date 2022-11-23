@@ -8,8 +8,6 @@ import java.util.UUID;
 
 @Repository
 public interface PostRepo extends JpaRepository<Post, UUID> {
-
     List<Post> findAll();
-    Post save (Post post);
-   // void deleteById(UUID postID);
+    Post save (Post post);// void deleteById(UUID postID);
 }

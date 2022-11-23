@@ -19,7 +19,6 @@ public class PostController {
     @PostMapping("/save")
     public Post savePost(@RequestBody Post body){
         return postService.submitPostToDB(body);
-
     }
 
     @GetMapping("/getAllPosts")

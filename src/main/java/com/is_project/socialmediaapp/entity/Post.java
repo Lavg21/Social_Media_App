@@ -39,7 +39,6 @@ public class Post {
         this.likes = likes;
         this.dateTime = dateTime;
     }
-
     public UUID getPostID() {
         return postID;
     }
